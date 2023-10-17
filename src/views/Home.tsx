@@ -7,14 +7,13 @@ import styles from './Home.module.css'
 export const Home = () => {
   return (
     <section id="Home" className={styles.home}>
-      <article>
+      <article className={styles.textContainer}>
         <p className={styles.titleContainer}>
           Somos un equipo de profesionales con más de 10 años de experiencia en el mundo de las reformas integrales. <br /> 
         </p>
-        <small className={styles.subtitleContainer}>
-          <p className={styles.textSubtitle}>Ofrecemos presupuestos personalizados según tus necesidades.<br /></p>
-          <p className={styles.textSubtitle}>Si estás buscando darle una nueva vida a tu hogar, has llegado al lugar adecuado.</p>
-        </small>
+          <p className={styles.subtitleContainer}>Ofrecemos presupuestos personalizados según tus necesidades.<br /></p>
+          <p className={styles.subtitleContainer}>Si estás buscando darle una nueva vida a tu hogar, has llegado al lugar adecuado.</p>
+      
       </article>
       <article className={styles.ctaContainer}>
         <Link

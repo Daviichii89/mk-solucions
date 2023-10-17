@@ -45,11 +45,11 @@ export const Navbar = () => {
       link: 'Warranty',
       enlace: 'Garantía',
     },
-    {
-      id: 4,
-      link: 'HowWeWork',
-      enlace: 'ComoTrabajamos',
-    },
+    // {
+    //   id: 4,
+    //   link: 'HowWeWork',
+    //   enlace: 'ComoTrabajamos',
+    // },
   ];
 
   const scrollPosition = useScrollPosition();
@@ -77,6 +77,7 @@ export const Navbar = () => {
         <AiOutlineClose
           color="#f1f1f1"
           size={25}
+          style={{ position: 'absolute', top: '10px', right: '10px' }}
           onClick={() => setNavBarOpen(!navBarOpen)}
         />
       ))}

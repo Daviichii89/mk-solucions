@@ -1,6 +1,5 @@
 import { Navbar } from './components/Navbar'
-import { Home, Services, HowWeWork, Contact } from './views'
-import { Warranty } from './views/Warranty'
+import { Home, Services, Warranty, Contact } from './views'
 
 
 function App() {
@@ -11,7 +10,7 @@ function App() {
       <Home />
       <Services />
       <Warranty />
-      <HowWeWork />
+      {/* <HowWeWork /> */}
       <Contact />
     </div>
   )

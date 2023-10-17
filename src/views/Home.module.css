@@ -5,23 +5,25 @@
     width: 100%;
     background: linear-gradient(180deg, #0097FF, #b5ebf5);
     padding: 20px 20px 200px;
+    color: #a27a35;
 }
 
 .titleContainer {
     font-size: 2em;
-    color: #f1f1f1; 
-    padding-top: 80px;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border-radius: 10px;
 }
 
 .subtitleContainer {
     font-size: 20px;
-    color: #f1f1f1;
     text-align: center;
     margin-bottom: 30px;
-}
-
-.textSubtitle {
-    margin-top: 40px;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border-radius: 10px;
 }
 
 .callToAction {
@@ -33,7 +35,7 @@
 
 .callToAction:hover {
     cursor: pointer;
-    padding: 15px;
+    font-size: 45px;
 }
 
 .ctaContainer {
@@ -47,5 +49,41 @@
     margin-bottom: 10px;
     border-radius: 10px;
     background-color: #010101;
-    color: #f1f1f1;
+    color: #a27a35;
+    font-weight: 600;
+}
+
+@media (min-width: 800px) {
+    .textContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    
+    .titleContainer {
+        align-items: center;
+        justify-content: center;
+        font-size: 4em;
+        width: 50%;
+        margin-top: 250px;
+        margin-bottom: 140px;
+    }
+    
+    .subtitleContainer {
+        font-size: 30px;
+        width: 50%;
+        margin-bottom: 80px;
+    }
+
+    .ctaContainer {
+        flex-direction: row;
+    }
+
+    .ctaContainer a {
+        font-size: 2em;
+        margin-top: 350px;
+        margin-right: 10px;
+    }
 }

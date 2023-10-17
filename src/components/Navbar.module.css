@@ -1,8 +1,9 @@
 .navBar {
     display: flex;
     position: fixed;
-    height: 50px;
+    height: 70px;
     width: 100%;
+    padding: 10px;
     justify-content: space-between;
     align-items: center;
     background-color: white;
@@ -17,14 +18,14 @@
     height: 100%;
     padding-top: 15px;
     background-color: #0099ff;
+    color: #f1f1f1;
     z-index: 5;
 }
 
 .navLink {
     display: flex;
     font-size: 2em;
-    font-weight: 400;
-    color: #f1f1f1;
+    font-weight: 600;
     padding-top: 90px;
 }
 
@@ -49,20 +50,10 @@
     margin-right: 10px;
 }
 
-/* .contactLink {
-    display: flex;
-    font-size: 1.5em;
-    font-weight: 400;
-    color: #f1f1f1;
-    background-color: #508094;
-    border-radius: 4px;
-    padding: 3px;
-} */
-
 .border {
     animation-name: animationborder;
     animation-duration: 1s;
-    background-color: rgb(57, 145, 115);
+    background-color: #f1f1f1;
 }
 
 .logoImg {
@@ -86,7 +77,9 @@
         align-items: center;
         align-content: center;
         justify-content: space-evenly;
-        height: 50px;
+        height: 100px;
+        color: #a27a35;
+        font-weight: 400;
     }
 
     .linksContainer {
@@ -97,21 +90,21 @@
     }
 
     .navLink {
-        font-size: 1.4em;
+        font-size: 2.5em;
         font-weight: 400;
         padding-top: 4px;
         transition: 0.5s;
     }
 
     .navLink:hover {
-        font-size: 1.5em;
+        font-size: 2.3em;
     }
 
     .navOnScroll {
         align-items: center;
         align-content: center;
         justify-content: space-evenly;
-        height: 50px;
-        background-color: #4a4564;
+        height: 70px;
+        background-color: white;
     }
 }

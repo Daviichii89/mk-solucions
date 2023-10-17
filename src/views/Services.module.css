@@ -3,13 +3,13 @@
     flex-direction: column;
     align-items: center;
     width: 100%;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding: 20px 20px 200px;
     background: linear-gradient(0deg, #0097FF, #b5ebf5);
+    color: #a27a35;
 }
 
 .services p {
-    color: #f1f1f1;
+    margin-top: 50px;
     font-size: 2em;
     font-weight: 800;
     text-align: center;
@@ -17,14 +17,21 @@
 }
 
 .services small {
-    color: #f1f1f1;
-    padding-bottom: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    font-size: 20px;
 }
 
 .servicesList {
-    color: #f1f1f1;
     font-size: 20px;
-    text-align: center;
+    text-align: left;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    list-style: none;
 }
 
 .servicesList li {
@@ -40,6 +47,14 @@
 @media (min-width: 800px) {
     .services {
         font-size: 2.5em;
+    }
+    
+    .services p {
+        margin-top: 200px;
+    }
+
+    .servicesList {
+        font-size: 30px;
     }
     
     .logoImg {

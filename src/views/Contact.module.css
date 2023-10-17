@@ -3,45 +3,54 @@
     flex-direction: column;
     width: 100%;
     padding-top: 50px;
-    padding-bottom: 200px;
-    background: linear-gradient(180deg, #0097FF, #b5ebf5);
+    padding-bottom: 150px;
+    background: linear-gradient(0deg, #0097FF, #b5ebf5);
     align-items: center;
+    color: #a27a35;
 }
 
 .contact h2 {
-    color: #f1f1f1;
-    font-size: 2.5em;
-    font-weight: 400;
+    font-size: 2em;
+    font-weight: 800;
+    margin-bottom: 20px;
 }
  
 .contactForm {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 55%;
+    width: 90%;
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 10px;
 }
 
 .contactLabel {
-    color: #f1f1f1;
-    font-size: 1em;
+    font-size: 1.2em;
     margin-top: 5px;
 }
 
 .contactInput {
-    background: none;
-    border: 1px solid #7060c0;
-    color: #f1f1f1;
+    background-color: #f1f1f1;
+    border: 1px solid #a27a35;
+    border-radius: 10px;
     width: 90%;
-    height: 35px;
+    height: 60px;
+    font-size: 1.2em;
     margin-top: 15px;
+    padding: 15px;
+    color: #a27a35;
 }
 .contactTextArea {
     background: none;
-    border: 1px solid #7060c0;
-    color: #f1f1f1;
+    border: 1px solid #a27a35;
+    border-radius: 10px;
     width: 90%;
-    height: 100px;
+    height: 200px;
+    font-size: 1.5em;
     margin-top: 15px;
+    padding: 15px;
+    color: #a27a35;
     resize: none;
 }
 
@@ -51,6 +60,31 @@
     margin-top: 15px;
     border: 1px solid #7060c0;
     background: none;
-    border-radius: 4px;
-    color: #f1f1f1;
+    border-radius: 10px;
+    color: #a27a35;
+    font-size: 1.2em;
+}
+
+@media (min-width: 800px) {
+    .contactForm {
+        width: 50%;
+    }
+
+    .contactLabel {
+        font-size: 2em;
+    }
+
+    .contactInput {
+        font-size: 2em;
+    }
+
+    .contactTextArea {
+        font-size: 2.8em;
+    }
+
+    .contactButton {
+        font-size: 2em;
+        width: 180px;
+        height: 60px;
+    }
 }

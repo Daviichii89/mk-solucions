@@ -14,8 +14,7 @@ export const Services = () => {
         <li>- Aislamiento térmico y acústico para un mayor confort.</li>
         <li>- Pintura y decoración interior y exterior.</li>
       </ul>
-      <p></p>
-      <small>Galería de proyectos.</small>
+      <small>Galería de proyectos</small>
       <picture className='swiper-container'>
         <SwiperComponent />
       </picture>
