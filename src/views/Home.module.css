@@ -66,15 +66,16 @@
         align-items: center;
         justify-content: center;
         font-size: 4em;
-        width: 50%;
+        width: 30%;
         margin-top: 250px;
         margin-bottom: 140px;
+        padding: 30px;
     }
     
     .subtitleContainer {
         font-size: 30px;
-        width: 50%;
-        margin-bottom: 80px;
+        width: 30%;
+        padding: 30px;
     }
 
     .ctaContainer {
@@ -83,7 +84,7 @@
 
     .ctaContainer a {
         font-size: 2em;
-        margin-top: 350px;
+        margin-top: 200px;
         margin-right: 10px;
     }
 }

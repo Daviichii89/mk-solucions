@@ -66,24 +66,31 @@
 }
 
 @media (min-width: 800px) {
+    .contact {
+        font-size: 2.5em;
+    }
+
     .contactForm {
         width: 50%;
+        padding: 40px;
     }
 
     .contactLabel {
-        font-size: 2em;
+        font-size: 1em;
     }
 
     .contactInput {
-        font-size: 2em;
+        font-size: 1em;
     }
 
     .contactTextArea {
-        font-size: 2.8em;
+        height: 350px;
+        font-size: 1.3em;
     }
 
     .contactButton {
-        font-size: 2em;
+        margin-top: 70px;
+        font-size: 1em;
         width: 180px;
         height: 60px;
     }
