@@ -1,0 +1,117 @@
+.navBar {
+    display: flex;
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+
+.navOpen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    padding-top: 15px;
+    background-color: #0099ff;
+    z-index: 5;
+}
+
+.navLink {
+    display: flex;
+    font-size: 2em;
+    font-weight: 400;
+    color: #f1f1f1;
+    padding-top: 90px;
+}
+
+.navLink:hover {
+    cursor: pointer;
+}
+
+.navOnScroll {
+    display: flex;
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: #0099ffa4; */
+    background-color: white;
+    opacity: 0.9;
+    z-index: 10;
+}
+
+.menuImg {
+    margin-right: 10px;
+}
+
+/* .contactLink {
+    display: flex;
+    font-size: 1.5em;
+    font-weight: 400;
+    color: #f1f1f1;
+    background-color: #508094;
+    border-radius: 4px;
+    padding: 3px;
+} */
+
+.border {
+    animation-name: animationborder;
+    animation-duration: 1s;
+    background-color: rgb(57, 145, 115);
+}
+
+.logoImg {
+    display: flex;
+    width: 170px;
+    height: 50px;
+    opacity: 0.9;
+}
+
+@keyframes animationborder {
+    0% {
+        height: 0px;
+    }
+    100% {
+        height: 1px;
+    }
+}
+
+@media (min-width: 800px) {
+    .navBar {
+        align-items: center;
+        align-content: center;
+        justify-content: space-evenly;
+        height: 50px;
+    }
+
+    .linksContainer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 50%;
+    }
+
+    .navLink {
+        font-size: 1.4em;
+        font-weight: 400;
+        padding-top: 4px;
+        transition: 0.5s;
+    }
+
+    .navLink:hover {
+        font-size: 1.5em;
+    }
+
+    .navOnScroll {
+        align-items: center;
+        align-content: center;
+        justify-content: space-evenly;
+        height: 50px;
+        background-color: #4a4564;
+    }
+}

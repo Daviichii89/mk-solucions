@@ -1,0 +1,51 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background: linear-gradient(180deg, #0097FF, #b5ebf5);
+    padding: 20px 20px 200px;
+}
+
+.titleContainer {
+    font-size: 2em;
+    color: #f1f1f1; 
+    padding-top: 80px;
+}
+
+.subtitleContainer {
+    font-size: 20px;
+    color: #f1f1f1;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.textSubtitle {
+    margin-top: 40px;
+}
+
+.callToAction {
+    background-color: #508094;
+    padding: 20px;
+    margin-left: 20px;
+    transition: 0.5s;
+}
+
+.callToAction:hover {
+    cursor: pointer;
+    padding: 15px;
+}
+
+.ctaContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.ctaContainer a {
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: #010101;
+    color: #f1f1f1;
+}
