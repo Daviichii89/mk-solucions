@@ -1,3 +1,0 @@
-azul primario: #0097FF
-azul secundario: #b5ebf5
-color fuente: #f1f1f1

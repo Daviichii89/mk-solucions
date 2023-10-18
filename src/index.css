@@ -9,16 +9,11 @@ body, html {
     min-width: 320px;
     width: 100%;
     min-height: 100vh;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    font-family: 'Courier New',-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
         'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
         sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-}
-  
-code {
-    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-        monospace;
 }
 
 .swiper-container {
@@ -26,6 +21,7 @@ code {
     width: 100%;
     height: 100%;
     z-index: 1;
+    margin-top: 30px;
 }
 
 .swiper {
@@ -37,7 +33,7 @@ code {
 
 .swiper-slide img {
     border-radius: 10px;
-    width: 90%;
+    width: 100%;
     height: 100%;
 }
 
