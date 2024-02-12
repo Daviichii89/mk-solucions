@@ -45,11 +45,6 @@ export const Navbar = () => {
       link: 'Warranty',
       enlace: 'Garantía',
     },
-    // {
-    //   id: 4,
-    //   link: 'HowWeWork',
-    //   enlace: 'ComoTrabajamos',
-    // },
   ];
 
   const scrollPosition = useScrollPosition();
